@@ -1,0 +1,236 @@
+.header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: #fff;
+
+	max-height: 100vh;
+
+/*
+	&.open {
+		box-shadow: 0 0 10px $accent-color;
+		transition: box-shadow .5s;
+	}
+*/
+	// title bar
+
+	.title {
+		@include screen-margins-with-gutters;
+		height: $header-height-small;
+		cursor: pointer;
+		text-rendering: optimizeLegibility;
+		-webkit-font-variant-ligatures: common-ligatures;
+		font-variant-ligatures: common-ligatures;
+		h1, h2 {
+			@include default-font;
+			float: left;
+			margin-top: 15px;
+			a {
+				color: #000;
+			}
+			.project-title {
+				margin-left: 20px;
+				color: $gray-3;
+				display: none;
+			}
+			.slogan {
+				color: $gray-3;
+				display: none;		
+			}
+		}
+		svg {
+			float: right;
+			margin-top: 19px;
+			transition-duration: 0.3s;
+			transition-property: transform;
+			line {
+				transition: stroke .3s;
+			}
+		}
+		/* don't think I need this
+		a {
+			transition: color .3s;
+		}
+		*/
+		&:hover {
+			svg line {
+				stroke: $accent-color;
+			}
+		}
+	}
+
+	// section links
+
+	.sections {
+		@include screen-margins-with-gutters;
+		margin: 23px 0 40px;
+		li {
+			margin: 15px 0;
+		}
+		a {
+			color: $gray-3;
+			text-decoration: none;
+			&:hover {
+				color: $accent-color;
+			}
+		}
+		li.selected a {
+			color: #000;
+		}
+	}
+
+	@include breakpoint(medium) {
+		.title {
+			float: left;
+			padding-right: 0;
+			height: $header-height-medium;
+			cursor: default;
+			h1, h2 {
+				margin-top: 9px;
+			}
+			svg {
+				display: none;
+			}
+			a:hover {
+				color: $accent-color;
+			}
+		}
+		.nav {
+			max-height: none !important;
+			float: right;
+		}
+		.sections {
+			margin: 9px 0 0 0;
+			padding-left: 0;
+			li {
+				display: inline-block;
+				margin: 0 0 0 15px;
+				&.home {
+					display: none;
+				}
+			}
+			a {
+				color: $gray-3;
+			}
+		}
+	}
+	@include breakpoint(large) {
+		.title {
+			height: $header-height-large;
+			h1, h2 {
+				margin-top: 5px;
+				.project-title {
+					display: inline;
+					opacity: 0;
+					transition: opacity .6s;
+					.scrolled & {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		.sections {
+			margin-top: 5px;
+		}
+	}
+	@include breakpoint(850px) {
+		.title h1 .slogan {
+			display: inline;
+		}
+	}
+	@include breakpoint(huge) {
+		.title {
+			height: $header-height-huge;
+			h1, h2 {
+				margin-top: 9px;
+			}
+		}
+		.sections {
+			margin-top: 9px;
+		}
+	}
+
+
+}
+.JS {
+	.header {
+		position: fixed;
+		.nav {
+			max-height: 0;
+			transition: max-height .4s;
+			overflow: hidden;
+		}
+		&.open {
+			overflow-y: auto;
+			-webkit-overflow-scrolling: touch;
+			.title svg {
+				transform: rotate(45deg);
+			}
+			.nav {
+				max-height: 264px;
+			}
+		}
+	}
+	@include below-breakpoint(medium) {
+		.home .header .title h1 {
+			display: block;
+			opacity: 0;
+			transition: opacity .6s;
+		}
+		.home.scrolled .header .title h1, .header.open .title h1 {
+			opacity: 1;
+		}
+	}
+}
+
+
+
+/* =============================================================================
+   Header variations
+============================================================================= */
+
+body.home .header h1 {
+	display: none;
+	@include breakpoint(medium) {
+		display: block;
+	}
+}
+
+// journal & playbook
+.playbook .header,
+.journal .header {background-color: $gray-6;}
+.playbook .header .title,
+.journal .header .title {
+	color: #fff;
+	a {color: #fff;}
+	a:hover {color: $accent-color;}
+}
+.playbook .header .sections,
+.journal .header .sections {
+	a {
+		color: $gray-4;
+		text-decoration: none;
+		&:hover {color: $accent-color}
+	}
+}
+.playbook .header li.selected a,
+.journal .header li.selected a {color: #fff;}
+
+
+// about.about .header,
+.about .header {background-color: $gray-1;}
+
+
+// contact
+.contact .header {background-color: $accent-color;}
+.contact .title {
+	a:hover {color: #fff;}
+}
+.contact .sections {
+	a {
+		color: $accent-color-dark;
+		text-decoration: none;
+		&:hover {color: #fff;}
+	}
+}

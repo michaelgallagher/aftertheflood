@@ -1,0 +1,132 @@
+{embed="embeds/.header" loc="home"}
+
+<style>
+	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+		{home-featured-projects var_prefix="projects-list"}
+			{projects-list:project var_prefix="project"}
+				{project:projects-main-image}
+					{if quality==""}
+						.project-img-{projects-list:row_count} {
+							background: url({exp:ce_img:single src="{image-file}" width="640" height="360" crop="no" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat center center;
+							filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+								src='{exp:ce_img:single src="{image-file}" width="640" height="360" crop="yes|{crop-horizontal}, crop="no" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}',
+								sizingMethod='scale');
+						}
+						@media screen and (min-width: 400px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="960" height="540" crop="no" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat center center;
+							}
+						}
+						@media screen and (min-width: 650px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="1000" height="1000" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+							}
+						}
+						@media screen and (min-width: 800px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="1500" height="1000" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+							}
+						}
+						@media screen and (min-width: 1200px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="2000" height="1333" crop="yes|{crop-horizontal}, {crop-vertical}" quality="60" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+							}
+						}
+					{/if}
+					{if quality!=""}
+						.project-img-{projects-list:row_count} {
+							background: url({exp:ce_img:single src="{image-file}" width="640" height="360" crop="no" quality="{quality}" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat center center;
+							filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+								src='{exp:ce_img:single src="{image-file}" width="640" height="360" crop="yes|{crop-horizontal}, crop="no" quality="{quality}" url_only="yes" save_type="jpg" bg_color="#fff"}',
+								sizingMethod='scale');
+						}
+						@media screen and (min-width: 400px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="960" height="540" crop="no" quality="{quality}" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat center center;
+							}
+						}
+						@media screen and (min-width: 650px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="1000" height="1000" crop="yes|{crop-horizontal}, {crop-vertical}" quality="{quality}" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+							}
+						}
+						@media screen and (min-width: 800px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="1500" height="1000" crop="yes|{crop-horizontal}, {crop-vertical}" quality="{quality}" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+							}
+						}
+						@media screen and (min-width: 1200px) {
+							.project-img-{projects-list:row_count} {
+								background: url({exp:ce_img:single src="{image-file}" width="2000" height="1333" crop="yes|{crop-horizontal}, {crop-vertical}" quality="{quality}" url_only="yes" save_type="jpg" bg_color="#fff"}) no-repeat {crop-horizontal} {crop-vertical};
+							}
+						}
+					{/if}
+				{/project:projects-main-image}
+			{/projects-list:project}
+		{/home-featured-projects}
+	{/exp:channel:entries}
+</style>
+
+<div class="section intro">
+	<p>After the flood</p>
+	<p class="slogan">Solving business problems<br />
+		with design and data
+	</p>
+</div>
+
+<div class="featured-projects">
+	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+		<ul>
+		{home-featured-projects var_prefix="projects-list"}
+			{projects-list:project var_prefix="project"}
+				<li>
+					<a href="/projects/{project:url_title}">
+						<div class="project-img project-img-{projects-list:row_count}"></div>
+						<div class="text">
+							<h3><?php echo str_replace('“', '<span class="hanging">“</span>', '{project:projects-summary}'); ?></h3>
+							<p class="client">{project:projects-client}</p>
+						</div>
+					</a>
+				</li>
+			{/projects-list:project}
+		{/home-featured-projects}
+		</ul>
+	{/exp:channel:entries}
+	<p class="see-more"><a href="/projects">See more</a></p>
+</div>
+
+<div class="section clients">
+	<h2><span>We work across a</span> <span>broad range of sectors</span></h2>
+	<ul>
+		{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+			{home-clients limit="12"}
+				<li{if url} class="link"{/if}>
+					{if url}<a href="{url}">{/if}<img src="<?php echo str_replace("-black", "", "{logo}") ?>" alt="{name}" />{if url}</a>{/if}
+				</li>
+			{/home-clients}
+		{/exp:channel:entries}
+	</ul>
+</div>
+
+<div class="section journal">
+	<h2>From the journal:</h2>
+	{exp:channel:entries channel="journal" orderby="date" sort="desc" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+			<h3><a href="/journal">{title}</a></h3>
+			<?php
+				// find first p that isn't for an image
+				$body = '{article-body}';
+				preg_match_all("/<p>(.*)<\/p>/", $body, $matches);
+				foreach ($matches[0] as $match) {
+					if (substr($match, 3, 6) != "image_" && substr($match, 3, 6) != "video_") {
+						// if we've found one, output it and move on
+						echo str_replace('<p>', '<p class="teaser">', $match);
+						break;
+					}
+				}
+			?>
+			<p class="date">{entry_date format="%d %F %Y"}</p>
+		</a>
+	{/exp:channel:entries}
+</div>
+
+{embed="embeds/.footer"}

@@ -1,0 +1,311 @@
+body.home h2 {
+	@include h3;
+	font-size: 2.3em;
+	line-height: (2.8em/2.3);
+	letter-spacing: -0.02em;
+	text-rendering: optimizeLegibility;
+	-webkit-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	margin: 54px 0 20px;
+	@include breakpoint(medium) {
+		font-size: 4em;
+		line-height: (4.7em/4);
+		margin-bottom: 34px;
+	}
+	@include breakpoint(large) {
+		font-size: 5em;
+		line-height: (5.8em/5);
+		margin-bottom: 42px;
+	}
+}
+
+// intro
+
+body.home .intro {
+	@include box;
+	margin-bottom: 53px;
+	p {
+		@include gutters;
+		font-size: 2.3em;
+		line-height: (2.8em/2.3);
+		letter-spacing: -0.02em;
+		text-rendering: optimizeLegibility;
+		-webkit-font-variant-ligatures: common-ligatures;
+		font-variant-ligatures: common-ligatures;
+		margin-top: -5px;
+		margin-bottom: 0;
+	}
+	p.slogan {
+		color: $gray-3;
+		margin-top: 0;
+	}
+	@include breakpoint(medium) {
+		display: none;
+	}
+}
+
+.featured-projects {
+	li {
+		font-size: 1em;
+		line-height: 1em;
+	}
+	.project-img {
+		padding-bottom: 56.25%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-ms-behavior: url(/js/third-party/backgroundsize.min.htc); // see https://github.com/louisremi/background-size-polyfill
+	}
+	.text {
+		@include screen-margins-with-gutters;
+		padding-bottom: 53px;
+	}
+	h3 {
+		font: 2.7em "futura-pt", arial, sans-serif;
+		line-height: (3em/2.7);
+		margin: 17px 0 18px;
+		@include h1;
+	}
+	p {
+		@include default-font;
+		color: $gray-3;
+	}
+	.see-more {
+		padding: 11px 0;
+		@include screen-margins-with-gutters;
+		border: 1px solid $gray-1;
+		border-width: 1px 0;
+		font-size: 15px;
+	}
+	@include breakpoint(medium) {
+		li {
+			position: relative;
+		}
+		.project-img {
+			padding-bottom: 0;
+			height: 600px; // fall back for non-IE browsers that don't do vh
+			height: 100vh;
+			height: calc(100vh - #{$header-height-medium});
+			@if $old-ie {
+				height: 600px;
+			}
+			
+		}
+		.text {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding-bottom: 0;
+			z-index: 1;
+			.JS & {
+				position: fixed;
+				top: 44px;
+				opacity: 0;
+				visibility: hidden;
+				transition: opacity .6s, visibility .6s;
+			}
+			@if $old-ie {
+				h3, p {
+					width: $fixed-width - ($medium-screen-margin-with-gutter * 2);
+					margin-left: auto;
+					margin-right: auto;
+					@include box;
+					padding: 0;
+				}
+			}
+			
+		}
+		.is-in-view .text {
+			opacity: 1;
+			visibility: visible;
+			pointer-events: none;
+		}
+		h3 {
+			color: #fff;
+			margin: 33px 0 7px;
+			text-shadow: 0px 0px 60px rgba(0, 0, 0, .3); // going past 60px causes strange glitch on iOS safari
+		}
+		p {
+			color: #fff;
+			font-size: 2.5em;
+			line-height: (3.2em/2.5em);
+			text-shadow: 0px 0px 80px rgba(0, 0, 0, .3);
+		}
+	}
+	@include breakpoint(large) {
+		.project-img {
+			height: calc(100vh - #{$header-height-large});
+		}
+		.text {
+			padding-right: percentage(1/8);
+			.JS & {
+				top: 40px;
+			}
+		}
+		h3 {
+			margin: 42px 0 11px;
+		}
+		p {
+			font-size: 3em;
+			line-height: (4em/3em);
+		}
+	}
+	@include breakpoint(huge) {
+		.project-img {
+			height: calc(100vh - #{$header-height-huge});
+		}
+	}
+
+	// for ios, we target specific devices as vh changes as chrome appears/dissapears which makes everything shift around...
+	
+	.project-img {
+		// iPhone 6 landscape
+		@media all and (device-width: 375px) and (device-height: 667px) and (orientation:landscape){
+			height: 375px - $header-height-medium;
+		}
+		// iPhone 6 plus landscape
+		@media all and (device-width: 414px) and (device-height: 736px) and (orientation:landscape){
+			height: 414px - $header-height-medium;
+		}
+		// iPad mini/air portrait
+		@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portraitpx){
+			height: 1024px - $header-height-medium;
+		}
+		// iPad mini/air landscape
+		@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+			height: 768px - $header-height-large;
+		}
+		// iPad Pro portrait
+		@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portraitpx){
+			height: 1366px - $header-height-large;
+		}
+		// iPad Pro landscape
+		@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:landscape){
+			height: 1024px - $header-height-large;
+		}
+		
+	}
+}
+
+
+// clients
+
+.clients {
+	@include screen-margins-with-gutters;
+	clear: both;
+	@include clearfix;
+	padding-bottom: 56px;
+	@include breakpoint(medium) {
+		padding-top: 50px;
+		padding-bottom: 52px;
+	}
+	@include breakpoint(large) {
+		padding-top: 56px;
+		padding-bottom: 100px;
+	}
+	h2 {
+		margin-bottom: 14px !important;
+		span {
+			display: block;
+		}
+		@include breakpoint(medium) {
+			margin-bottom: 45px !important;
+			span {
+				display: inline;
+			}
+		}
+		@include breakpoint(large) {
+			margin-bottom: 35px !important;
+		}
+		@include breakpoint(850px) {
+			span {
+				display: block;
+			}
+		}
+	}
+	ul {
+		li {
+			width: 33.3333%;
+			height: 55px; // this sets icon size
+			@include breakpoint(small) {
+				height: 80px;
+			}
+			@include breakpoint(medium) {
+				width: 25%;
+				height: 90px;
+			}
+			@include breakpoint(800px) {
+				width: percentage(1/6);
+				height: 80px;
+				margin-bottom: 10px;
+			}
+			@include breakpoint(large) {
+				height: 92px;
+				margin-bottom: 15px;
+			}
+			@include breakpoint(1200px) {
+				height: 110px;
+				margin-bottom: 20px;
+			}
+			@include breakpoint(huge) {
+				height: 130px;
+				margin-bottom: 25px;
+			}
+			display: block;
+			float: left;
+			text-align: center;
+			a {
+				border: none;
+			}
+			img {
+				max-height: 100%;
+				width: auto;
+				max-width: 100%;
+			}
+			opacity: .4;
+			@if $old-ie {
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+				filter: alpha(opacity=50);
+			}
+			&.link:hover {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+// journal 
+
+body.home .journal {
+	border-top: 1px solid $gray-1;
+	padding-bottom: 38px;
+	h3, p {
+		margin-bottom: 1em;
+	}
+	p {
+		color: $gray-3;
+	}
+	@include breakpoint(medium) {
+		padding-top: 10px;
+		padding-bottom: 60px;
+		h3, .teaser {
+			font-size: 2.4em;
+			line-height: (3em/2.4);
+		}
+	}
+	@include breakpoint(850px) {
+		h3, .teaser {
+			width: percentage(8/10);
+		}
+	}
+	@include breakpoint(large) {
+		padding-top: 50px;
+		padding-bottom: 100px;
+		h3, .teaser {
+			font-size: 3em;
+			line-height: (4em/3);
+			margin-bottom: 19px;
+		}
+	}
+}
