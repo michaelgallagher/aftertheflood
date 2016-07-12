@@ -46,8 +46,12 @@ body {
 		line-height: (6.7em/6.4);
 	}
 	@include breakpoint(large) {
-		font-size: 8em;
-		line-height: (8.2em/8);
+		font-size: 7.4em;
+		line-height: (7.7em/7.4);
+	}
+	@include breakpoint(huge) {
+		font-size: 8.3em;
+		line-height: (8.5em/8.3);
 	}
 }
 @mixin h2 {
@@ -356,4 +360,3 @@ p.promo {
 .hanging {
 	margin-left: -.47em;
 }
-
