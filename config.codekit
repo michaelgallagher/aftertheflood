@@ -614,6 +614,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/alpha-hero-v0-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3894,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/alpha-hero-v0-5.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/alpha-hero-v0-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/Annotate_View_iPad.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4282,6 +4293,17 @@
 		"initialSize": 218479,
 		"inputAbbreviatedPath": "\/downloads\/images\/alpha-hero-v0-4.png",
 		"outputAbbreviatedPath": "\/downloads\/images\/alpha-hero-v0-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/alpha-hero-v0-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210954,
+		"inputAbbreviatedPath": "\/downloads\/images\/alpha-hero-v0-5.png",
+		"outputAbbreviatedPath": "\/downloads\/images\/alpha-hero-v0-5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9750,6 +9772,171 @@
 		"initialSize": 147308,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-4_831_540_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-4_831_540_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_1000_1000_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41861,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1000_1000_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1000_1000_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_1000_1000_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 302720,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1000_1000_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1000_1000_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_1500_1000_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50154,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1500_1000_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1500_1000_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_1500_1000_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 423133,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1500_1000_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_1500_1000_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_2000_1333_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78548,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_2000_1333_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_2000_1333_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_2000_1333_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 649862,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_2000_1333_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_2000_1333_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_554_360_60_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10831,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_554_360_60_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_554_360_60_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_554_360_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70083,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_554_360_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_554_360_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_600_600_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19932,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_600_600_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_600_600_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_600_600_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124151,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_600_600_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_600_600_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_640_360_60_ffffff_c1_c_ crop=.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12704,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_640_360_60_ffffff_c1_c_ crop=.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_640_360_60_ffffff_c1_c_ crop=.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_640_360_ffffff_c1_c_ crop=.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53478,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_640_360_ffffff_c1_c_ crop=.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_640_360_ffffff_c1_c_ crop=.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_650_365_c1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60931,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_650_365_c1.png",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_650_365_c1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_831_540_60_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19681,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_831_540_60_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_831_540_60_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/alpha-hero-v0-5_831_540_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 144776,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_831_540_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/alpha-hero-v0-5_831_540_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
