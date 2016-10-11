@@ -8478,6 +8478,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/1to1-hero-v1j_600_600_60_ffffff_c1_r_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23140,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero-v1j_600_600_60_ffffff_c1_r_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero-v1j_600_600_60_ffffff_c1_r_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/1to1-hero-v1j_600_600_ffffff_c1_r_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161082,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero-v1j_600_600_ffffff_c1_r_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero-v1j_600_600_ffffff_c1_r_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/1to1-hero-v1j_640_360_60_ffffff_c1_r_ crop=.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -15415,6 +15437,17 @@
 		"initialSize": 244671,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/IDEAS_HERO_960_539_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/IDEAS_HERO_960_539_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/IMG_4127_1500_1125_80_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192836,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/IMG_4127_1500_1125_80_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/IMG_4127_1500_1125_80_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
