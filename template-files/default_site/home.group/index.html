@@ -68,24 +68,20 @@
 </style>
 
 <div class="section intro">
-	<p>After the flood</p>
-	<p class="slogan">solves complex design and<br />
-		business problems
+	<p class="name">
+		After the flood
+	</p>
+	<p class="slogan text">
+		Service design,<br />
+		digital product design,<br />
+		data visualisation
 	</p>
 </div>
 
-<!-- TODO:
-Need to add a class to the surrounding div that:
-- changes the <ul> style to be inline
-- adds margins etc.
-- possibly also sets sizes for the type
-
-Maybe also add a field to each project page
-so that on mobile sizes the category is shown under the image
-but above the project's title
-and then the leading div is hidden
--->
-
+<!--
+This was for attempting to have three buckets at the top
+using the projects list style.
+DEPRECATED
 <div>
 	<ul>
 		{exp:channel:entries channel="home" limit="3" disable="categories|category_fields|member_data|trackbacks|pagination"}
@@ -99,27 +95,12 @@ and then the leading div is hidden
 		{/exp:channel:entries}
 	</ul>
 </div>
-
-<!-- TODO:
-- Why is this style breaking when it is surrounded by home-featured-projects?
-- The hacky category added above the project title should be hidden at sizes above mobile
--->
-
 <div class="home-projects-list">
 	<ul>
-
 		{exp:channel:entries channel="home" limit="3"}
-
 			{home-featured-projects var_prefix="projects-list"}
 				{projects-list:project var_prefix="project"}
-
 					<li class="projects-project">
-						<!-- Note: I've changed the class from
-						"projects-project{switch=" i2|"}{switch=" i3||"}{switch=" i4|||"}"
-						which was totally screwing up the grid columns, and it seems to work fine.
-						However, this switch style doesn't screw anything up on the projects page and I have no idea why.
-						That said, on inspection the i2 i3 stuff doesn't look correct or regular on the projects page.
-						-->
 						<a href="/projects/{project:url_title}" class="title-img-wrap">
 							<div class="bw-img">
 								<img src="{exp:ce_img:single src="{project:projects-main-image}{image-file}{/projects-main-image}" width="650" height="365" crop="yes" quality="65" url_only="yes"}" alt="{title}" />
@@ -132,39 +113,37 @@ and then the leading div is hidden
 							</div>
 						</a>
 					</li>
-
 				{/projects-list:project}
 			{/home-featured-projects}
-
 		{/exp:channel:entries}
 	</ul>
 	<div class="rule rule-1"></div><div class="rule rule-2"></div><div class="rule rule-3"></div>
 	<p class="see-more"><a href="/projects">See more</a></p>
-
 </div>
+-->
 
-<!--
 <div class="featured-projects">
 	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
 		<ul>
-		{home-featured-projects var_prefix="projects-list"}
-			{projects-list:project var_prefix="project"}
-				<li>
-					<a href="/projects/{project:url_title}">
-						<div class="project-img project-img-{projects-list:row_count}"></div>
-						<div class="text">
-							<h3><?php echo str_replace('“', '<span class="hanging">“</span>', '{project:projects-summary}'); ?></h3>
-							<p class="client">{project:projects-client}</p>
-						</div>
-					</a>
-				</li>
-			{/projects-list:project}
-		{/home-featured-projects}
+			{home-featured-projects var_prefix="projects-list"}
+				{projects-list:project var_prefix="project"}
+					<li>
+						<a href="/projects/{project:url_title}">
+							<div class="project-img project-img-{projects-list:row_count}"></div>
+							<div class="text">
+								<h3><?php echo str_replace('“', '<span class="hanging">“</span>', '{project:projects-summary}'); ?></h3>
+								<p class="client">{project:projects-client}</p>
+							</div>
+						</a>
+					</li>
+				{/projects-list:project}
+			{/home-featured-projects}
 		</ul>
 	{/exp:channel:entries}
-	<p class="see-more"><a href="/projects">See more</a></p>
+	<div class="see-more">
+		<p class="see-more-text"><a href="/projects">See more</a></p>
+	</div>
 </div>
--->
 
 <div class="section clients">
 	<h2><span>We work across a</span> <span>broad range of sectors</span></h2>
