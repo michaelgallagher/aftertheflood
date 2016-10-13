@@ -191,16 +191,16 @@ body {
 }
 @mixin article-h1 {
 	font: 2.3em "Tiempos", georgia;
-	line-height: (3.3em/2.3);
+	line-height: (3em/2.3);
 	margin: 38px 0 42px;
 	@include breakpoint(medium) {
 		font-size: 4.8em;
-		line-height: (6em/4.8);
+		line-height: (5.3em/4.8);
 		margin: 38px 0 42px;
 	}
 	@include breakpoint(large) {
 		font-size: 6.5em;
-		line-height: (7.8em/6.5);
+		line-height: (7em/6.5);
 		margin: 46px 0 62px;
 	}
 }
