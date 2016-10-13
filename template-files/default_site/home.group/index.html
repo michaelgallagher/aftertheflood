@@ -68,32 +68,42 @@
 </style>
 
 <div class="section intro">
-	<p>After the flood</p>
-	<p class="slogan">Solving business problems<br />
-		with design and data
+	<p class="name">
+		After the flood
+	</p>
+	<p class="slogan text">
+		Service design,<br />
+		digital product design,<br />
+		data visualisation
 	</p>
 </div>
 
 <div class="featured-projects">
 	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
 		<ul>
-		{home-featured-projects var_prefix="projects-list"}
-			{projects-list:project var_prefix="project"}
-				<li>
-					<a href="/projects/{project:url_title}">
-						<div class="project-img project-img-{projects-list:row_count}"></div>
-						<div class="text">
-							<h3><?php echo str_replace('“', '<span class="hanging">“</span>', '{project:projects-summary}'); ?></h3>
-							<p class="client">{project:projects-client}</p>
-						</div>
-					</a>
-				</li>
-			{/projects-list:project}
-		{/home-featured-projects}
+			{home-featured-projects var_prefix="projects-list"}
+				{projects-list:project var_prefix="project"}
+					<li>
+						<a href="/projects/{project:url_title}">
+							<div class="project-img project-img-{projects-list:row_count}"></div>
+							<div class="text">
+								<h3><?php echo str_replace('“', '<span class="hanging">“</span>', '{project:projects-summary}'); ?></h3>
+								<p class="client">{project:projects-client}</p>
+							</div>
+						</a>
+					</li>
+				{/projects-list:project}
+			{/home-featured-projects}
 		</ul>
 	{/exp:channel:entries}
-	<p class="see-more"><a href="/projects">See more</a></p>
+	<div class="see-more">
+		<a href="/projects">
+			<p class="see-more-text">See more projects</p>
+		</a>
+	</div>
 </div>
+
+
 
 <div class="section clients">
 	<h2><span>We work across a</span> <span>broad range of sectors</span></h2>

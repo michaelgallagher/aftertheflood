@@ -1,5 +1,5 @@
 // @codekit-prepend "third-party/jquery-1.11.1.min.js";
-/* 
+/*
 	modernizr includes defaults, plus:
 	Inline SVG, SVG, Media Queries, Touch Events
 */
@@ -33,7 +33,7 @@ $(document).ready(function (){
 	var medium_screen = 650;
 	var large_screen = 1000;
 	var nav_break_point = 650;
-	
+
 	var screen_size;
 
 	set_screen_size = function () {
@@ -54,7 +54,7 @@ $(document).ready(function (){
 		});
 		set_screen_size();
 	}
-	
+
 
 	/******************************************************************************************
 	NAV
@@ -67,22 +67,22 @@ $(document).ready(function (){
 			e.preventDefault();
 		}
 	});
-	
+
 	// clicking outside of menu closes it
 	$("html").click(function() {
 		$(".header").removeClass("open");
 	});
-	
+
 	$(".header").click(function(e){
 		e.stopPropagation();
 	});
 
 	// show title only after scrolling page a bit
 	$(window).on("scroll", function() {
-		if ($(this).scrollTop() < 100) {
+		if ($(this).scrollTop() < 120) {
 			$("body").removeClass("scrolled");
 		} else {
-			$("body").addClass("scrolled");			
+			$("body").addClass("scrolled");
 		}
 	});
 
@@ -95,13 +95,21 @@ $(document).ready(function (){
 		var projects = $($(".featured-projects li").get().reverse());
 
 		show_project_text = function() {
-			var switch_point = $(window).height() * .25; // point a project needs to pass before its text appears
+			var switch_point = $(window).height() * .2; // point a project needs to pass before its text appears
+
+			// add the big project headline text, and also remove it if we reverse back to the top
+			if ($(".featured-projects").offset().top < switch_point) {
+				projects.addClass("is-in-view");
+			} else {
+					projects.removeClass("is-in-view");
+			}
+
 			// if the "see more" link is past our switch point, we don't show any of the texts
-			if ($(".featured-projects .see-more").offset().top - $(window).scrollTop() < $(window).height() * .5) {
+			if ($(".featured-projects .see-more").offset().top - $(window).scrollTop() < $(window).height() * .4) {
 				projects.removeClass("is-in-view");
 				return false;
 			}
-			
+
 			projects.each(function(){
 				var project_y_pos = $(this).offset().top - $(window).scrollTop();
 				if (project_y_pos < switch_point) {
@@ -119,27 +127,27 @@ $(document).ready(function (){
 	/******************************************************************************************
 	PROJECTS LIST
 	******************************************************************************************/
-	
+
 	if ($("body.projects.list").length) {
 
 		// equal height headings for projects lists
-		
+
 		set_project_list_heading_heights = function() {
 			$(".projects-list h2").css("height", "");
 			var new_height = Math.max($(".projects-list h2").eq(0).height(), $(".projects-list h2").eq(1).height());
 			$(".projects-list h2").height(new_height);
 		}
-		
+
 		$(window).load(function () {
 			set_project_list_heading_heights();
 		});
 		$(window).resize(function () {
 			set_project_list_heading_heights();
-		});	
+		});
 	}
 
 	/******************************************************************************************
-	CONTACT FORM 
+	CONTACT FORM
 	******************************************************************************************/
 
 	var contact_form = $('form.contact');
@@ -162,7 +170,7 @@ $(document).ready(function (){
 					});
 					$("html, body").animate({scrollTop: $(".empty").first().prev("label").offset().top - $(".header").height() - 10}, 400);
 //					$(".empty").first().focus();
-					
+
 				} else if (data.success) {
 					// keep form same height
 					contact_form_container.css("height", contact_form_container.height());
@@ -178,7 +186,7 @@ $(document).ready(function (){
 				}
 			}
 		);
-	
+
 		e.preventDefault();
 		return false;
 	});
@@ -196,33 +204,33 @@ $(document).ready(function (){
 	******************************************************************************************/
 
 	// PARAGRAPH INDENTS
-	
+
 	$(".body p").each(function() {
 		if (!$(this).prev().is("p:not(.date, .intro, .note)") || $(this).prev().html()=="&nbsp;") {
 			$(this).addClass("first");
 		}
 	});
-	
+
 	// LOGO FOR NON-SVG BROWSERS
-	
+
 	if (!Modernizr.svg) {
 		$("body.home .header h1 img").attr("src", "/images/site/atf-logo.png");
 	}
 
 	// unless we're on Contact page, hide footer when page is pulled down (has negative scroll) to stop it popping up behind top of content
-	
+
 	if (!$("body").hasClass("contact")) {
 		$(window).on("scroll", function() {
 			if ($("body").scrollTop() < 0) {
 				$(".footer").hide();
 			} else {
-				$(".footer").show();			
+				$(".footer").show();
 			}
 		});
 	}
-	
+
 	// SAFARI 6.1 screws up height of main images in projects, as does iOS6
-	
+
 	if ($("body.projects").length && navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
 		safari_project_img_fix = function() {
 			// set heading-wrap to be height of screen (or iOS6)
@@ -234,7 +242,7 @@ $(document).ready(function (){
 			safari_project_img_fix();
 		});
 	}
-	
+
 });
 
 function loaded() {

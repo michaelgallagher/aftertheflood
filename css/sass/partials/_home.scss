@@ -36,11 +36,26 @@ body.home .intro {
 		margin-bottom: 0;
 	}
 	p.slogan {
+		z-index: 1000;
 		color: $gray-3;
-		margin-top: 0;
+		margin-top: 10px;
+		@include breakpoint(medium) {
+			@include h1;
+			margin-top: 42px;
+			margin-bottom: 32px;
+			margin-left: -4px;
+			color: #000;
+		}
 	}
 	@include breakpoint(medium) {
-		display: none;
+		.name {
+			display: none;
+		}
+		.hide-slogan & {
+			opacity: 0;
+			visibility: hidden;
+			// color: blue;
+		}
 	}
 }
 
@@ -63,19 +78,28 @@ body.home .intro {
 	h3 {
 		font: 2.7em "futura-pt", arial, sans-serif;
 		line-height: (3em/2.7);
-		margin: 17px 0 18px;
+		margin: 17px 0 4px;
 		@include h1;
 	}
 	p {
 		@include default-font;
-		color: $gray-3;
+		// color: $gray-3;
 	}
 	.see-more {
-		padding: 11px 0;
+		padding: 11px 0 15px 0;
 		@include screen-margins-with-gutters;
 		border: 1px solid $gray-1;
 		border-width: 1px 0;
-		font-size: 15px;
+		a.link, a.visited {
+			color: #000;
+			background-color: #fff;
+		}
+		&:hover, &:active {
+			color: #000;
+			background-color: $accent-color;
+			border: 1px solid $accent-color;
+			border-width: 1px 0;
+		}
 	}
 	@include breakpoint(medium) {
 		li {
@@ -89,7 +113,6 @@ body.home .intro {
 			@if $old-ie {
 				height: 600px;
 			}
-			
 		}
 		.text {
 			position: absolute;
@@ -103,7 +126,7 @@ body.home .intro {
 				top: 44px;
 				opacity: 0;
 				visibility: hidden;
-				transition: opacity .6s, visibility .6s;
+				transition: opacity .4s, visibility .4s;
 			}
 			@if $old-ie {
 				h3, p {
@@ -114,7 +137,6 @@ body.home .intro {
 					padding: 0;
 				}
 			}
-			
 		}
 		.is-in-view .text {
 			opacity: 1;
@@ -123,10 +145,11 @@ body.home .intro {
 		}
 		h3 {
 			color: #fff;
-			margin: 33px 0 7px;
+			margin: 33px 0 7px -4px;
 			text-shadow: 0px 0px 60px rgba(0, 0, 0, .3); // going past 60px causes strange glitch on iOS safari
 		}
-		p {
+		p.client {
+			margin-left: -3px;
 			color: #fff;
 			font-size: 2.5em;
 			line-height: (3.2em/2.5em);
@@ -144,9 +167,9 @@ body.home .intro {
 			}
 		}
 		h3 {
-			margin: 42px 0 11px;
+			margin: 42px 0 11px -4px;
 		}
-		p {
+		p.client {
 			font-size: 3em;
 			line-height: (4em/3em);
 		}
@@ -158,7 +181,7 @@ body.home .intro {
 	}
 
 	// for ios, we target specific devices as vh changes as chrome appears/dissapears which makes everything shift around...
-	
+
 	.project-img {
 		// iPhone 6 landscape
 		@media all and (device-width: 375px) and (device-height: 667px) and (orientation:landscape){
@@ -184,7 +207,7 @@ body.home .intro {
 		@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:landscape){
 			height: 1024px - $header-height-large;
 		}
-		
+
 	}
 }
 
@@ -275,7 +298,7 @@ body.home .intro {
 	}
 }
 
-// journal 
+// journal
 
 body.home .journal {
 	border-top: 1px solid $gray-1;

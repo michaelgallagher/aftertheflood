@@ -218,6 +218,14 @@ $old-ie: false !default;
 	@include breakpoint(huge) {margin-left: -$huge-screen-margin-with-gutter; margin-right: -$huge-screen-margin-with-gutter}
 }
 
+@mixin vertical-margin-top {
+	padding-top: $tiny-screen-margin-with-gutter;
+	@include breakpoint(small) {padding-top: $small-screen-margin-with-gutter;}
+	@include breakpoint(medium) {padding-top: $medium-screen-margin-with-gutter;}
+	@include breakpoint(large) {padding-top: $large-screen-margin-with-gutter;}
+	@include breakpoint(huge) {padding-top: $huge-screen-margin-with-gutter}
+}
+
 
 // SASS imports
 

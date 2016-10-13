@@ -13,8 +13,8 @@ body.article {
 		margin-top: 40px;
 	}
 	h3 {
-		@include h3-bottom-rule;
-		border-bottom: 3px solid #fff;
+		@include h3-normal;
+		// border-bottom: 3px solid #fff;
 	}
 	p.intro {
 		color: $accent-color;
