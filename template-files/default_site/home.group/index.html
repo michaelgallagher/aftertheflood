@@ -78,50 +78,6 @@
 	</p>
 </div>
 
-<!--
-This was for attempting to have three buckets at the top
-using the projects list style.
-DEPRECATED
-<div>
-	<ul>
-		{exp:channel:entries channel="home" limit="3" disable="categories|category_fields|member_data|trackbacks|pagination"}
-			{home-featured-projects}
-				<li class="projects-project">
-					<div class="text">
-						<h3 class="category-label">{home-category}</h3>
-					</div>
-				</li>
-			{/home-featured-projects}
-		{/exp:channel:entries}
-	</ul>
-</div>
-<div class="home-projects-list">
-	<ul>
-		{exp:channel:entries channel="home" limit="3"}
-			{home-featured-projects var_prefix="projects-list"}
-				{projects-list:project var_prefix="project"}
-					<li class="projects-project">
-						<a href="/projects/{project:url_title}" class="title-img-wrap">
-							<div class="bw-img">
-								<img src="{exp:ce_img:single src="{project:projects-main-image}{image-file}{/projects-main-image}" width="650" height="365" crop="yes" quality="65" url_only="yes"}" alt="{title}" />
-							</div>
-							<div class="text">
-								<p>{home-category}</p>
-								<h3>{project:title}</h3>
-								<p class="client"><em>for</em> {project:projects-client}</p>
-								<p class="summary"><?php echo str_replace('“', '<span class="hanging">“</span>', '{project:projects-summary}'); ?></p>
-							</div>
-						</a>
-					</li>
-				{/projects-list:project}
-			{/home-featured-projects}
-		{/exp:channel:entries}
-	</ul>
-	<div class="rule rule-1"></div><div class="rule rule-2"></div><div class="rule rule-3"></div>
-	<p class="see-more"><a href="/projects">See more</a></p>
-</div>
--->
-
 <div class="featured-projects">
 	{exp:channel:entries channel="home" url_title="home" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
 		<ul>
@@ -141,9 +97,13 @@ DEPRECATED
 		</ul>
 	{/exp:channel:entries}
 	<div class="see-more">
-		<p class="see-more-text"><a href="/projects">See more</a></p>
+		<a href="/projects">
+			<p class="see-more-text">See more projects</p>
+		</a>
 	</div>
 </div>
+
+
 
 <div class="section clients">
 	<h2><span>We work across a</span> <span>broad range of sectors</span></h2>
