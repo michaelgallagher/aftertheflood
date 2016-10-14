@@ -1,3 +1,5 @@
 css/sass/.sass-cache
 images/made
 config.codekit
+.codekit-cache
+admin/expressionengine/cache
