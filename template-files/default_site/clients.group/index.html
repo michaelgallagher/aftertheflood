@@ -1,0 +1,16 @@
+{embed="embeds/.header" loc="clients" page-title="Clients" meta-title="Clients"}
+
+	<div class="client-list">
+		<ul>
+			{exp:channel:entries channel="clients" url_title="clients" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+				{client-entries limit="30"}
+					<li{if url} class="link"{/if}>
+						{if url}<a href="{client-url}">{/if}<img src="{client-logo}" alt="{name}" />{if url}</a>{/if}
+					</li>
+				{/client-entries}
+			{/exp:channel:entries}
+		</ul>
+		<div class="rule rule-1"></div><div class="rule rule-2"></div><div class="rule rule-3"></div><div class="rule rule-4"></div><div class="rule rule-5"></div>
+	</div>
+
+{embed="embeds/.footer"}
