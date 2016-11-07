@@ -90,10 +90,11 @@ $(document).ready(function (){
 	HOME
 	******************************************************************************************/
 
+	// to remove the auto-hide stuff, just kill this whole statement
+
 	if ($("body.home").length) {
 		// hide and show relevant project text
 		var projects = $($(".featured-projects li").get().reverse());
-
 		show_project_text = function() {
 			var switch_point = $(window).height() * .2; // point a project needs to pass before its text appears
 
@@ -123,6 +124,7 @@ $(document).ready(function (){
 			show_project_text();
 		});
 	}
+
 
 	/******************************************************************************************
 	PROJECTS LIST
