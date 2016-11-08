@@ -4,8 +4,8 @@
 		<ul>
 			{exp:channel:entries channel="clients" url_title="clients" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
 				{client-entries limit="30"}
-					<li{if url} class="link"{/if}>
-						{if url}<a href="{client-url}">{/if}<img src="{client-logo}" alt="{name}" />{if url}</a>{/if}
+					<li{if client-url} class="link"{/if}>
+						{if client-url}<a href="{client-url}">{/if}<img src="{client-logo}" alt="{name}" />{if client-url}</a>{/if}
 					</li>
 				{/client-entries}
 			{/exp:channel:entries}
