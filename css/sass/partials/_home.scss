@@ -24,29 +24,7 @@ body.home h2 {
 body.home .intro {
 	@include box;
 	margin-bottom: 53px;
-	p {
-		@include gutters;
-		font-size: 2.3em;
-		line-height: (2.8em/2.3);
-		letter-spacing: -0.02em;
-		text-rendering: optimizeLegibility;
-		-webkit-font-variant-ligatures: common-ligatures;
-		font-variant-ligatures: common-ligatures;
-		margin-top: -5px;
-		margin-bottom: 0;
-	}
-	p.slogan {
-		z-index: 1000;
-		color: $gray-3;
-		margin-top: 10px;
-		@include breakpoint(medium) {
-			@include h1;
-			margin-top: 42px;
-			margin-bottom: 32px;
-			margin-left: -4px;
-			color: #000;
-		}
-	}
+
 	@include breakpoint(medium) {
 		.name {
 			display: none;
@@ -57,7 +35,51 @@ body.home .intro {
 			// color: blue;
 		}
 	}
+
+	.tagline {
+		@include gutters;
+	}
+
+	p {
+		// @include gutters;
+		font-size: 2.3em;
+		line-height: (2.8em/2.3);
+		letter-spacing: -0.02em;
+		text-rendering: optimizeLegibility;
+		-webkit-font-variant-ligatures: common-ligatures;
+		font-variant-ligatures: common-ligatures;
+		margin-top: -5px;
+		margin-bottom: 0;
+	}
+
+	p.slogan {
+		z-index: 1000;
+		margin-top: 16px;
+		@include breakpoint(medium) {
+			@include h1;
+			margin-top: 42px;
+			margin-bottom: 20px;
+			margin-left: -4px;
+			color: #000;
+		}
+	}
+
+	p.services {
+		// font-style: italic;
+		// color: $accent-color;
+		padding-top: 8px;
+		margin-top: 16px;
+		// border-top: 1px solid $accent-color;
+		@include breakpoint(medium) {
+			// color: #000;
+			@include h2;
+			margin-top: 32px;
+			margin-bottom: 32px;
+			// font-size: 2.7em;
+		}
+	}
 }
+
 
 .featured-projects {
 	li {

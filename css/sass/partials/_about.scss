@@ -8,7 +8,7 @@ body.about {
 			@include gutters;
 		}
 		p {
-			@include about-h1;
+			@include h1-about;
 			max-width: 925px;
 		}
 	}

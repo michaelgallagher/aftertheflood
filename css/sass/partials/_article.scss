@@ -63,7 +63,7 @@ body.article {
 	}
 
 	.container h1 {
-		@include article-h1;
+		@include h1-article;
 	}
 	.img, .video {
 		margin: 46px 0 42px;
