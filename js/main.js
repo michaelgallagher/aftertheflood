@@ -149,6 +149,28 @@ $(document).ready(function (){
 	}
 
 	/******************************************************************************************
+	ABOUT PAGE
+	******************************************************************************************/
+
+	if ($("body.about.about-module-content").length) {
+
+		// equal height headings for projects lists
+
+		set_aboout_list_heights = function() {
+			$(".about-module-content li").css("height", "");
+			var new_height = Math.max($(".about-module-content li").eq(0).height(), $(".about-module-content li").eq(1).height());
+			$(".about-module-content li").height(new_height);
+		}
+
+		$(window).load(function () {
+			set_about_list_heights();
+		});
+		$(window).resize(function () {
+			set_about_list_heights();
+		});
+	}
+
+	/******************************************************************************************
 	CONTACT FORM
 	******************************************************************************************/
 

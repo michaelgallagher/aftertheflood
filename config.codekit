@@ -368,6 +368,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/client-logos\/_thumbs\/atf-max-writing-things.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2581,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/atf-max-writing-things.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/atf-max-writing-things.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/client-logos\/_thumbs\/atf-max.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3206,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/atf-max.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/atf-max.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/client-logos\/_thumbs\/atf-mike.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3421,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/atf-mike.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/atf-mike.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/client-logos\/_thumbs\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -376,6 +409,61 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/downloads\/client-logos\/_thumbs\/number-10-hero-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2364,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/number-10-hero-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/_thumbs\/number-10-hero-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/client-logos\/atf-max-writing-things.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.29821e+06,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/atf-max-writing-things.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/atf-max-writing-things.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/client-logos\/atf-max.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.96271e+06,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/atf-max.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/atf-max.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/client-logos\/atf-mike.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.05863e+06,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/atf-mike.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/atf-mike.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/client-logos\/number-10-hero-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 215034,
+		"inputAbbreviatedPath": "\/downloads\/client-logos\/number-10-hero-1.jpg",
+		"outputAbbreviatedPath": "\/downloads\/client-logos\/number-10-hero-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/downloads\/images\/1.jpg": {
 		"fileType": 16384,
@@ -8362,6 +8450,50 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/made\/downloads\/client-logos\/atf-max-writing-things_650_365_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 165261,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/atf-max-writing-things_650_365_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/atf-max-writing-things_650_365_c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/client-logos\/atf-max_650_365_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 239000,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/atf-max_650_365_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/atf-max_650_365_c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/client-logos\/atf-mike_650_365_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264765,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/atf-mike_650_365_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/atf-mike_650_365_c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/client-logos\/number-10-hero-1_650_365_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172795,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/number-10-hero-1_650_365_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/client-logos\/number-10-hero-1_650_365_c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/10_640_360_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -10397,6 +10529,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/badges_1500_352_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 248489,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/badges_1500_352_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/badges_1500_352_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/Barca_attack_alves_1000_549_80.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -11343,6 +11486,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/citizen-ex-extension_1500_1083_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 727830,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-extension_1500_1083_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-extension_1500_1083_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/citizen-ex-map-1_1000_1000_60_ffffff_c1_l_ t.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -11508,6 +11662,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/citizen-ex-personal-page_1500_1083_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 210302,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-personal-page_1500_1083_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-personal-page_1500_1083_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -11515,6 +11680,17 @@
 		"initialSize": 258494,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_80_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 767528,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-home_1500_1083_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -11530,6 +11706,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_1503_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452165,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_1503_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-libya_800_1503_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -11537,6 +11724,17 @@
 		"initialSize": 129055,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_80_ffffff.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_80_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 447652,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/citizen-ex-site-scotland_800_1503_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
