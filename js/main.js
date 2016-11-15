@@ -91,39 +91,39 @@ $(document).ready(function (){
 	******************************************************************************************/
 
 	// to remove the auto-hide stuff, just kill this whole statement
-
-	if ($("body.home").length) {
-		// hide and show relevant project text
-		var projects = $($(".featured-projects li").get().reverse());
-		show_project_text = function() {
-			var switch_point = $(window).height() * .2; // point a project needs to pass before its text appears
-
-			// add the big project headline text, and also remove it if we reverse back to the top
-			if ($(".featured-projects").offset().top < switch_point) {
-				projects.addClass("is-in-view");
-			} else {
-					projects.removeClass("is-in-view");
-			}
-
-			// if the "see more" link is past our switch point, we don't show any of the texts
-			if ($(".featured-projects .see-more").offset().top - $(window).scrollTop() < $(window).height() * .4) {
-				projects.removeClass("is-in-view");
-				return false;
-			}
-
-			projects.each(function(){
-				var project_y_pos = $(this).offset().top - $(window).scrollTop();
-				if (project_y_pos < switch_point) {
-					projects.not($(this)).removeClass("is-in-view");
-					$(this).addClass("is-in-view");
-					return false;
-				}
-			});
-		}
-		$(window).on("scroll load resize", function() {
-			show_project_text();
-		});
-	}
+	//
+	// if ($("body.home").length) {
+	// 	// hide and show relevant project text
+	// 	var projects = $($(".featured-projects li").get().reverse());
+	// 	show_project_text = function() {
+	// 		var switch_point = $(window).height() * .2; // point a project needs to pass before its text appears
+	//
+	// 		// add the big project headline text, and also remove it if we reverse back to the top
+	// 		if ($(".featured-projects").offset().top < switch_point) {
+	// 			projects.addClass("is-in-view");
+	// 		} else {
+	// 				projects.removeClass("is-in-view");
+	// 		}
+	//
+	// 		// if the "see more" link is past our switch point, we don't show any of the texts
+	// 		if ($(".featured-projects .see-more").offset().top - $(window).scrollTop() < $(window).height() * .4) {
+	// 			projects.removeClass("is-in-view");
+	// 			return false;
+	// 		}
+	//
+	// 		projects.each(function(){
+	// 			var project_y_pos = $(this).offset().top - $(window).scrollTop();
+	// 			if (project_y_pos < switch_point) {
+	// 				projects.not($(this)).removeClass("is-in-view");
+	// 				$(this).addClass("is-in-view");
+	// 				return false;
+	// 			}
+	// 		});
+	// 	}
+	// 	$(window).on("scroll load resize", function() {
+	// 		show_project_text();
+	// 	});
+	// }
 
 
 	/******************************************************************************************

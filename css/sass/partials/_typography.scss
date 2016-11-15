@@ -59,20 +59,24 @@ body {
 }
 
 @mixin h1-home {
+	text-rendering: optimizeLegibility;
+	-webkit-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
 	font: 2.3em "Tiempos", georgia, serif;
 	line-height: (3.3em/2.8);
 	@include breakpoint(medium) {
 		font-size: 4.8em;
 		line-height: (5.3em/4.8);
+		letter-spacing: -.02em;
 	}
 	@include breakpoint(large) {
-		font-size: 6.5em;
-		line-height: (7em/6.5);
-		letter-spacing: -.03em;
+		font-size: 6.3em;
+		line-height: (6.9em/6.3);
+		letter-spacing: -.04em;
 	}
 	@include breakpoint(huge) {
-		font-size: 7.2em;
-		line-height: 1.03em;
+		font-size: 6.9em;
+		line-height: (7.4em/6.9);
 	}
 }
 
@@ -118,8 +122,12 @@ body {
 		line-height: (3.5em/2.8);
 	}
 	@include breakpoint(large) {
-		font-size: 3em;
-		line-height: (3.8em/3);
+		font-size: 3.2em;
+		line-height: (3.9em/3.2);
+	}
+	@include breakpoint(huge) {
+		font-size: 3.7em;
+		line-height: (4.2em/3.7);
 	}
 }
 
@@ -138,16 +146,20 @@ body {
 }
 
 @mixin h2-serif {
-	font: 2.7em "Tiempos", georgia;
-	line-height: (3.3em/2.7);
+	font: 1.8em "Tiempos", georgia;
+	line-height: (2.3em/1.8);
 	margin-bottom: 5px;
 	@include breakpoint(medium) {
-		font-size: 3.2em;
-		line-height: (3.9em/3.2);
+		font-size: 2.4em;
+		line-height: (3.2em/2.4);
 	}
 	@include breakpoint(large) {
-		font-size: 3.5em;
-		line-height: (4.2em/3.5);
+		font-size: 2.6em;
+		line-height: (3.4em/2.6);
+	}
+	@include breakpoint(huge) {
+		font-size: 3.1em;
+		line-height: (4em/3.1);
 	}
 }
 
@@ -171,6 +183,8 @@ body {
 	}
 	@include breakpoint(huge) {
 		margin-bottom: 12px;
+		font-size: 3.7em;
+		line-height: (4.2em/3.7);
 	}
 }
 
