@@ -1,0 +1,8 @@
+full : Full-bleed (2560px)
+text : Text column (1740px)
+left : Left (DO NOT USE)
+right : Right (DO NOT USE)
+left-bleed : Bleed left (DO NOT USE)
+right-bleed : Bleed right (DO NOT USE)
+small : Side-by-side (870px)
+three-columns : 3 columns (1/3)

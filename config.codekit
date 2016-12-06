@@ -2060,6 +2060,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/_thumbs\/footer-trees.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1997,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/footer-trees.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/footer-trees.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/_thumbs\/GDS-ALL.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2441,6 +2452,17 @@
 		"initialSize": 8795,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/Gov_map.png",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/Gov_map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/hero-kilobots.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2642,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/hero-kilobots.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/hero-kilobots.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3308,6 +3330,39 @@
 		"initialSize": 1820,
 		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/Playbook4.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/Playbook4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/poster-bigdog.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2331,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/poster-bigdog.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/poster-bigdog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/poster-kilobot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2317,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/poster-kilobot.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/poster-kilobot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/_thumbs\/poster-uav.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2417,
+		"inputAbbreviatedPath": "\/downloads\/images\/_thumbs\/poster-uav.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/_thumbs\/poster-uav.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5776,6 +5831,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/downloads\/images\/footer-trees.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 753818,
+		"inputAbbreviatedPath": "\/downloads\/images\/footer-trees.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/footer-trees.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/downloads\/images\/GDS-ALL.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -6157,6 +6223,17 @@
 		"initialSize": 1.82826e+06,
 		"inputAbbreviatedPath": "\/downloads\/images\/Gov_map.png",
 		"outputAbbreviatedPath": "\/downloads\/images\/Gov_map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/hero-kilobots.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.86284e+06,
+		"inputAbbreviatedPath": "\/downloads\/images\/hero-kilobots.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/hero-kilobots.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7015,6 +7092,39 @@
 		"initialSize": 64514,
 		"inputAbbreviatedPath": "\/downloads\/images\/Playbook4.jpg",
 		"outputAbbreviatedPath": "\/downloads\/images\/Playbook4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/poster-bigdog.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 960413,
+		"inputAbbreviatedPath": "\/downloads\/images\/poster-bigdog.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/poster-bigdog.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/poster-kilobot.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 874771,
+		"inputAbbreviatedPath": "\/downloads\/images\/poster-kilobot.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/poster-kilobot.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/downloads\/images\/poster-uav.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 918774,
+		"inputAbbreviatedPath": "\/downloads\/images\/poster-uav.jpg",
+		"outputAbbreviatedPath": "\/downloads\/images\/poster-uav.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -9040,6 +9150,17 @@
 		"initialSize": 70512,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero_640_360_ffffff_c1_r_ crop=.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero_640_360_ffffff_c1_r_ crop=.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/1to1-hero_650_365_c1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 159258,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero_650_365_c1.png",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/1to1-hero_650_365_c1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12190,6 +12311,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/Encode_explorer1_1500_952_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 614590,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Encode_explorer1_1500_952_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Encode_explorer1_1500_952_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/Encode_explorer2_1200_761_90.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12241,6 +12373,17 @@
 		"initialSize": 109875,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Encode_explorer2_1500_952_85.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Encode_explorer2_1500_952_85.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/Encode_explorer2_1500_952_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 357187,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Encode_explorer2_1500_952_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Encode_explorer2_1500_952_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -12300,6 +12443,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/encode_explorer3_1500_952_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520230,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer3_1500_952_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer3_1500_952_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/encode_explorer4_1200_761_90.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12355,6 +12509,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/encode_explorer4_1500_952_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 549936,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer4_1500_952_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer4_1500_952_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/encode_explorer5_1200_761_90.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -12406,6 +12571,17 @@
 		"initialSize": 165943,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer5_1500_952_85.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer5_1500_952_85.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/encode_explorer5_1500_952_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 604939,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer5_1500_952_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/encode_explorer5_1500_952_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13825,6 +14001,17 @@
 		"initialSize": 288177,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/Football_Brain_650_365_c1.png",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/Football_Brain_650_365_c1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/footer-trees_1500_473_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 383052,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/footer-trees_1500_473_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/footer-trees_1500_473_ffffff.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -15409,6 +15596,193 @@
 		"initialSize": 49672,
 		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/header-bg-tablet-tree@2x_800_526_80_f2f1f0.jpg",
 		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/header-bg-tablet-tree@2x_800_526_80_f2f1f0.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112146,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 112146,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 839537,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 839537,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1000_1000_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123764,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123764,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09365e+06,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09365e+06,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_1500_1000_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 225046,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 225046,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.94582e+06,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.94582e+06,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_2000_1333_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_600_600_60_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43940,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_60_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_60_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_600_600_60_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43940,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_60_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_60_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_600_600_ffffff_c1_c_ b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306124,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_ffffff_c1_c_ b.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_ffffff_c1_c_ b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_600_600_ffffff_c1_c_ c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306124,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_ffffff_c1_c_ c.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_600_600_ffffff_c1_c_ c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/hero-kilobots_650_365_65_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26528,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_650_365_65_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots_650_365_65_c1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -19384,6 +19758,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/poster-bigdog_1100_1375_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 854716,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-bigdog_1100_1375_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-bigdog_1100_1375_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-bigdog_1152_1440_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 991348,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-bigdog_1152_1440_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-bigdog_1152_1440_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-bigdog_800_1000_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 490539,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-bigdog_800_1000_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-bigdog_800_1000_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-kilobot_1100_1375_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 787855,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-kilobot_1100_1375_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-kilobot_1100_1375_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-kilobot_1152_1440_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 912480,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-kilobot_1152_1440_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-kilobot_1152_1440_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-kilobot_800_1000_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 449288,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-kilobot_800_1000_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-kilobot_800_1000_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-uav_1100_1375_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 818526,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-uav_1100_1375_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-uav_1100_1375_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-uav_1152_1440_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 947829,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-uav_1152_1440_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-uav_1152_1440_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/made\/downloads\/images\/poster-uav_800_1000_ffffff.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 467828,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-uav_800_1000_ffffff.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/poster-uav_800_1000_ffffff.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/problem-map-london_800_506_80_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -23179,6 +23652,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
+		},
+	"\/placeholder\/robot-life-buttons.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/placeholder\/robot-life-buttons.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/template-files\/default_site\/404.group\/index.html": {
 		"fileType": 8192,

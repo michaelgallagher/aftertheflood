@@ -441,6 +441,31 @@ body.projects.single {
 				width: percentage(4/9);
 			}
 		}
+
+
+
+
+		&.three-columns {
+			@include breakpoint(medium) {
+				@include gutters;
+				width: percentage(1/3);
+				float: left;
+				clear: none;
+				&:first-of-type {
+					clear: right;
+				}
+			}
+		}
+		.three-column-wrapper {
+			// background-color: red;
+			display: block;
+		}
+
+
+
+
+
+
 		&.left, &.right, &.left-bleed, &.right-bleed {
 			border: 10px solid red;
 		}
@@ -526,11 +551,6 @@ body.projects.single {
 			padding-bottom: 69px !important;
 		}
 	}
-
-
-
-
-
 	.related-projects {
 		@include screen-margins;
 		padding-bottom: 0 !important;
@@ -653,7 +673,6 @@ body.projects.single {
 			}
 		}
 	}
-
 	.section.white {
 		p, ul, li, h2, h3, h4 {
 			color: #fff;
@@ -662,6 +681,44 @@ body.projects.single {
 		a {
 			color: #fff;
 			border-color: $gray-4;
+		}
+	}
+	// Buy now button
+	.buy-now {
+		// border-top: 1px solid $gray-1;
+		// @include screen-margins;
+		padding-bottom: 20px;
+		.button {
+			@include h2;
+			background: $accent-color;
+			border-radius: 1px;
+			border: none;
+			box-shadow: none;
+			padding: 6px 14px 10px 14px;
+			clear: both;
+			&:hover, &:active {
+				background-color: #000;
+				color: $accent-color;
+			}
+		}
+		@include breakpoint(medium) {
+			// padding-top: 50px;
+			padding-bottom: 15px;
+		}
+		@include breakpoint(large) {
+			// padding-top: 64px;
+			padding-bottom: 20px ;
+		}
+		&.buy-now-bottom {
+			padding-bottom: 0;
+			@include breakpoint(medium) {
+				// padding-top: 50px;
+				padding-bottom: 0 ;
+			}
+			@include breakpoint(large) {
+				// padding-top: 64px;
+				padding-bottom: 0;
+			}
 		}
 	}
 }

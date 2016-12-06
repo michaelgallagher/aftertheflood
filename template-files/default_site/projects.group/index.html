@@ -159,10 +159,12 @@
 				<?php
 					$left_small_row_open = false;
 					// this var will keep track of whether we've got a small image row open - outputting another image type or getting to the end of the content will close it.
+					$three_column_image = 0;
+					// a variable for the three column image, maybe breaks?
 				?>
 				{projects-body}
 					{exp:ifelse parse="inward"}
-						{if image-type!="small"}<?php
+						{if image-type!="small" or "three-columns"}<?php
 							// if we've got a small image row open but new content is not a small image, close down small image row
 							if ($left_small_row_open) {
 								echo '</div>';
@@ -223,9 +225,32 @@
 										echo '</div>';
 									}
 								?>
+								{if:elseif image-type=="three-columns"}
+								  <?php
+										$three_column_image++;
+								    if ($three_column_image > 1) {
+								      echo '<div class="img three-columns">';
+								    } else {
+								      echo '<div class="three-column-wrapper"><div class="img three-columns">';
+								    }
+								  ?>
+								    <img src="{exp:ce_img:single src="{image}" width="800" quality="100" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}">
+								    {if caption}<div class="caption">{caption}</div>{/if}
+								  </div>
+								  <?php
+								    // small image row gets closed by last small image
+								    if ($three_column_image == 3) {
+								      echo '</div>';
+											$three_column_image = 0;
+								    }
+								  ?>
 							{if:else}
 								<div class="img {image-type}{if row_count==total_rows} last-in-content{/if}">
-									<div class="img-wrap"><div><img src="{exp:ce_img:single src="{image}" width="1500" quality="100" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}"></div></div>
+									<div class="img-wrap">
+										<div>
+											<img src="{exp:ce_img:single src="{image}" width="1500" quality="100" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}">
+										</div>
+									</div>
 									{if caption}<div class="caption">{caption}</div>{/if}
 								</div>
 							{/if}
