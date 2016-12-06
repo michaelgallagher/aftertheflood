@@ -178,11 +178,11 @@ body.home .intro {
 		}
 		h3 {
 			margin: 0 0 11px -4px; // top was 42px
-			width: percentage(7/10);
+			width: percentage(6.5/10);
 		}
 	}
-	@include breakpoint(1200px) {
-		// h3 {width: percentage(6/10);}
+	@include breakpoint(1300px) {
+		h3 {width: percentage(6/10);}
 	}
 	@include breakpoint(huge) {
 		.project-img {
