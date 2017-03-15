@@ -16634,6 +16634,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/made\/downloads\/images\/hero-kilobots-A_650_365_65_c1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23365,
+		"inputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots-A_650_365_65_c1.jpg",
+		"outputAbbreviatedPath": "\/images\/made\/downloads\/images\/hero-kilobots-A_650_365_65_c1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/made\/downloads\/images\/hero-kilobots-A_800_540_60_ffffff.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
