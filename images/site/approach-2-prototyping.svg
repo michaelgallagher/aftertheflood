@@ -1,1 +1,49 @@
-<svg id="lines" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360"><defs><style>.cls-1{fill:none;stroke:#000;stroke-linejoin:bevel;}</style></defs><title>part2</title><circle id="_Path_" data-name="&lt;Path&gt;" cx="206" cy="222" r="4"/><circle id="_Path_2" data-name="&lt;Path&gt;" cx="158" cy="95" r="4"/><g id="_Group_" data-name="&lt;Group&gt;"><path class="cls-1" d="M0,180H60C181.33,180,127.5,6.5,285.33,6.5h73.58"/><polygon points="355.6 10.59 354.92 9.86 358.53 6.5 354.92 3.14 355.6 2.41 360 6.5 355.6 10.59"/></g><g id="_Group_2" data-name="&lt;Group&gt;"><g id="_Group_3" data-name="&lt;Group&gt;"><path id="_Path_3" data-name="&lt;Path&gt;" class="cls-1" d="M0,238.5H13.67c74.67,0,89.67,83.25,153.67,83.25C271.33,321.75,219,87.5,330,87.5h28.92"/><g id="_Group_4" data-name="&lt;Group&gt;"><polygon id="_Path_4" data-name="&lt;Path&gt;" points="355.6 91.59 354.92 90.86 358.53 87.5 354.92 84.14 355.6 83.41 360 87.5 355.6 91.59"/></g></g></g><g id="_Group_5" data-name="&lt;Group&gt;"><path class="cls-1" d="M0,64.5H12C161,64.5,112.5,258,343,258h15.92"/><polygon points="355.6 262.09 354.92 261.36 358.53 258 354.92 254.64 355.6 253.91 360 258 355.6 262.09"/></g><g id="_Group_6" data-name="&lt;Group&gt;"><path class="cls-1" d="M0,6.5H40c63,0,110.68,53.92,138.72,140.33C207.5,235.5,234.33,317,337,317h21.92"/><polygon points="355.6 321.09 354.92 320.36 358.53 317 354.92 313.64 355.6 312.91 360 317 355.6 321.09"/></g><g id="_Group_7" data-name="&lt;Group&gt;"><path class="cls-1" d="M0,296H10C87,296,48.67,95,158,95c65,0,78,61,163.67,61h37.25"/><polygon points="355.6 160.09 354.92 159.36 358.53 156 354.92 152.64 355.6 151.91 360 156 355.6 160.09"/></g><g id="_Group_8" data-name="&lt;Group&gt;"><g id="_Group_9" data-name="&lt;Group&gt;"><path id="_Path_5" data-name="&lt;Path&gt;" class="cls-1" d="M0,122H8c70.5,0,65.67,118,155.5,118,70.83,0,75.83-118,144.5-118h50.92"/><g id="_Group_10" data-name="&lt;Group&gt;"><polygon id="_Path_6" data-name="&lt;Path&gt;" points="355.6 126.09 354.92 125.36 358.53 122 354.92 118.64 355.6 117.91 360 122 355.6 126.09"/></g></g></g><g id="_Group_11" data-name="&lt;Group&gt;"><g id="_Group_12" data-name="&lt;Group&gt;"><path id="_Path_7" data-name="&lt;Path&gt;" class="cls-1" d="M0,353.5H19C88,353.5,87.67,240,163.5,240,242.33,240,243,353.5,345,353.5h13.92"/><g id="_Group_13" data-name="&lt;Group&gt;"><polygon id="_Path_8" data-name="&lt;Path&gt;" points="355.6 357.59 354.92 356.86 358.53 353.5 354.92 350.14 355.6 349.41 360 353.5 355.6 357.59"/></g></g></g><circle id="_Path_9" data-name="&lt;Path&gt;" cx="77" cy="179" r="4"/><circle id="_Path_10" data-name="&lt;Path&gt;" cx="263" cy="144" r="4"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
+<g id="Layer_5" display="none">
+</g>
+<g id="Layer_6" display="none">
+</g>
+<g id="lines">
+	<polyline id="XMLID_63_" fill="none" stroke="#000000" stroke-miterlimit="10" points="2,6 56,6 60,10 60,59.5 64.5,64 	"/>
+	<polyline id="XMLID_12_" fill="none" stroke="#000000" stroke-miterlimit="10" points="116,122 120,126 120,176 124,180 	"/>
+	<polyline id="XMLID_5_" fill="none" stroke="#000000" stroke-miterlimit="10" points="2,296 296,296 300,292 300,242 304,238 	"/>
+	<polyline id="XMLID_6_" fill="none" stroke="#000000" stroke-miterlimit="10" points="2,354 236,354 240,350 240,300.5 244.5,296 	
+		"/>
+	<g id="XMLID_8_">
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="304" y1="238" x2="358.9" y2="238"/>
+			<g>
+				<polygon points="355.6,242.1 354.9,241.4 358.5,238 354.9,234.6 355.6,233.9 360,238 				"/>
+			</g>
+		</g>
+	</g>
+	<g id="XMLID_9_">
+		<g>
+			<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="2" y1="64" x2="358.9" y2="64"/>
+			<g>
+				<polygon points="355.6,68.1 354.9,67.4 358.5,64 354.9,60.6 355.6,59.9 360,64 				"/>
+			</g>
+		</g>
+	</g>
+	<polyline id="XMLID_1_" fill="none" stroke="#000000" stroke-miterlimit="10" points="2,122 176,122 180,118 180,68 184,64 	"/>
+	<polyline id="XMLID_10_" fill="none" stroke="#000000" stroke-miterlimit="10" points="2,180 296,180 300,184 300,234 304,238 	"/>
+	<polyline id="XMLID_3_" fill="none" stroke="#000000" stroke-miterlimit="10" points="2,238 63,238 67,234 67,184 71,180 	"/>
+</g>
+<g id="dots">
+	<circle id="XMLID_22_" cx="2" cy="6" r="2"/>
+	<circle id="XMLID_23_" cx="2" cy="64" r="2"/>
+	<circle id="XMLID_24_" cx="2" cy="122" r="2"/>
+	<circle id="XMLID_35_" cx="2" cy="180" r="2"/>
+	<circle id="XMLID_36_" cx="2" cy="238" r="2"/>
+	<circle id="XMLID_37_" cx="2" cy="296" r="2"/>
+	<circle id="XMLID_38_" cx="2" cy="354" r="2"/>
+</g>
+<g id="guides">
+</g>
+<g id="Layer_4" display="none">
+</g>
+</svg>
