@@ -1,46 +1,90 @@
 {embed="embeds/.header" loc="about" page-title="About" meta-title="About"}
-{exp:channel:entries channel="about" url_title="about" sort="desc" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+{exp:channel:entries channel="about" url_title="about" orderby="date" sort="desc" limit="1" disable="categories|category_fields|member_data|trackbacks|pagination"}
+	{if about-standfirst}
+		<div class="section standfirst">
+			<div class="text">
+				{about-standfirst}
+			</div>
+		</div>
+	{/if}
+<!--
+	{if about-about-us}
+		<div class="section about-us">
+			<div class="rule-wrapper">
+				<div class="rule"></div>
+				<h2>About Us</h2>
+				<div class="body">
+					{about-about-us}
+				</div>
+			</div>
+		</div>
+	{/if}
+-->
 
-<div class="about-modules">
-	<ul>
-		{about-module}
-			<li class="about-module-content{switch=" i2|"}{switch=" i3||"}{switch=" i4|||"}">
 
-			<!-- The big-text modules -->
-				{if about-big-text}
-					<div class="about-big-text">
-						<h2 class"big-text">{about-big-text}</h2>
+	<div class="approach">
+
+		<div class="section"> <!-- maybe the section bit should belong to the parent div? gets weird though -->
+			<div class="rule-wrapper"> <!-- this really shouldn't be necessary -->
+				<div class="rule"></div>
+			</div>
+			<h2 class="approach-title">Our approach</h2>
+			<div class="body">
+				{about-approach-intro}
+			</div>
+		</div>
+
+		<!-- begin wrapper for the approach clusters -->
+		<div class="section approach-wrapper">
+					<div class="approach-cluster">
+						<div class="approach-diagram">
+							<img src="/images/site/approach-1-development.svg" alt="Approach: Discovery">
+						</div>
+						<div class="approach-content">
+							<h2>Concept development</h2>
+							{if about-approach-discovery}
+								{about-approach-discovery}
+							{/if}
+						</div>
 					</div>
-				{/if}
-
-			<!-- The quote modules -->
-				{if about-quote}
-					<div class="about-quote">
-						<h2 class="quote">{about-quote}</h2>
-						{if about-quote-attribution}
-							<p class="quote-attribution">
-								{about-quote-attribution}
-							</p>
-						{/if}
+					<div class="approach-cluster">
+						<div class="approach-diagram">
+							<img src="/images/site/approach-2-prototyping.svg" alt="Approach: Design">
+						</div>
+						<div class="approach-content">
+							<h2>Rapid prototyping</h2>
+							{if about-approach-design}
+								{about-approach-design}
+							{/if}
+						</div>
 					</div>
-				{/if}
-
-			<!-- The image modules -->
-				{if about-image}
-					<div accesskey=""class="about-image">
-						<img src="{about-image}">
-						{if about-image-caption}
-							<p class="image-caption">
-								{about-image-caption}
-							</p>
-						{/if}
+					<div class="approach-cluster">
+						<div class="approach-diagram">
+							<img src="/images/site/approach-3-integration.svg" alt="Approach: Delivery">
+						</div>
+						<div class="approach-content">
+							<h2>Design integration</h2>
+							{if about-approach-delivery}
+								{about-approach-delivery}
+							{/if}
+						</div>
 					</div>
-				{/if}
+		</div>
+		<!-- end wrapper for the approach clusters -->
 
-			</li>
-		{/about-module}
-	</ul>
-</div>
+	</div>
+	<!-- end approach -->
 
+	{if about-about-us}
+		<div class="section about-us">
+			<div class="rule-wrapper">
+				<div class="rule"></div>
+			</div>
+			<h2>About us</h2>
+			<div class="body">
+				{about-about-us}
+			</div>
+		</div>
+	{/if}
 {/exp:channel:entries}
 {embed="embeds/.footer"}
