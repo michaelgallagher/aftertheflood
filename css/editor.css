@@ -102,8 +102,11 @@ strong { font-weight: bold; }
 
 em { font-style: italic; }
 
-.large-text {
-	font-size: 2em;
+.large-text-black, .large-text-purple {
+	font-size: 1.3em;
 	line-height: 1.25;
 }
+.large-text-black {color: black;}
+.large-text-purple {color: #6b1ed9;}
+
 .spark-bar-medium {color: blue;}
