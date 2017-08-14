@@ -23,12 +23,12 @@
 body {
 	padding: 10px;
 	font: 15px "Tiempos", georgia;
-	line-height: 21px;	
+	line-height: 21px;
 }
 
 p, label, li, h2, h3, h4 {
 	font: 15px "Tiempos", georgia;
-	line-height: 21px;	
+	line-height: 21px;
 }
 p {
 	text-indent: 1em;
@@ -101,3 +101,9 @@ a:focus, a:active { outline: none; }
 strong { font-weight: bold; }
 
 em { font-style: italic; }
+
+.large-text {
+	font-size: 2em;
+	line-height: 1.25;
+}
+.spark-bar-medium {color: blue;}
