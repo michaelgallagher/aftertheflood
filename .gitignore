@@ -3,3 +3,4 @@ images/made
 config.codekit
 .codekit-cache
 admin/expressionengine/cache
+admin/expressionengine/config/config.php
