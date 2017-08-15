@@ -4,3 +4,4 @@ config.codekit
 .codekit-cache
 admin/expressionengine/cache
 admin/expressionengine/config/config.php
+admin/expressionengine/config/database.php
