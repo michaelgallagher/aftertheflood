@@ -398,32 +398,32 @@ p.promo {
 @mixin p-large-text {
 	font: 2.1em "futura-pt", arial, sans-serif;
 	line-height: (2.5em/2.1);
-	margin-bottom: 8px;
+	margin-top: 20px;
 	letter-spacing: 0.01em;
+	text-indent: 0px !important;
 	@include breakpoint(medium) {
 		font-size: 2.8em;
 		line-height: (3.5em/2.8);
-		margin-bottom: 10px;
+		margin-top: 26px;
 	}
 	@include breakpoint(large) {
 		font-size: 3em;
 		line-height: (3.8em/3);
+		margin-top: 34px;
 	}
 	@include breakpoint(huge) {
-		margin-bottom: 12px;
+		margin-top: 40px;
 		font-size: 3.7em;
 		line-height: (4.2em/3.7);
 	}
 }
 
-.large-text-black {@include p-large-text;}
+.large-text-black {
+	@include p-large-text;
+}
 .large-text-purple {
 	@include p-large-text;
 	color: #6b1ed9;
-}
-
-.grey-text {
-	color: #aaa;
 }
 
 // the spark styles
@@ -431,30 +431,37 @@ p.promo {
 .spark-bar-medium  {
 	font-family: "spark-bar-medium";
 	letter-spacing: 0em;
-	color: red;
 }
 .spark-bar-narrow  {
 	font-family: "spark-bar-narrow";
 	letter-spacing: 0em;
-	color: brown;
 }
 .spark-bar-thin    {
 	font-family: "spark-bar-thin";
 	letter-spacing: 0em;
-	color: green;
 }
 .spark-dot-medium  {
 	font-family: "spark-dot-medium";
 	letter-spacing: 0em;
-	color: blue;
 }
 .spark-dot-small  {
 	font-family: "spark-dot-small";
 	letter-spacing: 0em;
-	color: blue;
 }
 .spark-line-medium {
 	font-family: "spark-line-medium";
 	letter-spacing: 0em;
-	color: $accent-color;
 }
+
+// colours, for span styles
+.accent-color-text   {color:$accent-color;}
+.red-text            {color:red;}
+.blue-text           {color:blue;}
+.green-text          {color:green;}
+.purple-text         {color:#6b1ed9;}
+.orange-red-text     {color:#ff4628;}
+
+// greys, for span styles
+.grey-text-1         {color: #888;}
+.grey-text-2         {color: #aaa;}
+.grey-text-3         {color: #ccc;}
