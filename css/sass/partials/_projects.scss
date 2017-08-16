@@ -612,7 +612,7 @@ body.projects.single {
 		.button {
 			@include h2;
 			background: $accent-color;
-			border-radius: 1px;
+			border-radius: 2px;
 			border: none;
 			box-shadow: none;
 			padding: 6px 14px 10px 14px;
@@ -759,14 +759,15 @@ body.projects.single {
 		}
 	}
 	// Buy now button
-	.buy-now {
+	.button-section {
 		// border-top: 1px solid $gray-1;
 		// @include screen-margins;
-		padding-bottom: 20px;
+		// padding-bottom: 20px;
+		margin-top: 18px;
 		.button {
 			@include h2;
 			background: $accent-color;
-			border-radius: 1px;
+			border-radius: 2px;
 			border: none;
 			box-shadow: none;
 			padding: 6px 14px 10px 14px;
@@ -783,17 +784,6 @@ body.projects.single {
 		@include breakpoint(large) {
 			// padding-top: 64px;
 			padding-bottom: 20px ;
-		}
-		&.buy-now-bottom {
-			padding-bottom: 0;
-			@include breakpoint(medium) {
-				// padding-top: 50px;
-				padding-bottom: 0 ;
-			}
-			@include breakpoint(large) {
-				// padding-top: 64px;
-				padding-bottom: 0;
-			}
 		}
 	}
 }
