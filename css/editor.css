@@ -102,11 +102,27 @@ strong { font-weight: bold; }
 
 em { font-style: italic; }
 
+.text-illustration {
+	font-size: 1.2em;
+	line-height: 1.3;
+}
+
+.grey-text {
+	color: #999999;
+}
+
 .large-text-black, .large-text-purple {
-	font-size: 1.3em;
-	line-height: 1.25;
+	font-size: 1.2em;
+	line-height: 1.3;
 }
 .large-text-black {color: black;}
 .large-text-purple {color: #6b1ed9;}
 
-.spark-bar-medium {color: blue;}
+.spark-bar-medium,
+.spark-bar-narrow,
+.spark-bar-thin,
+.spark-dot-medium,
+.spark-dot-small,
+.spark-line-medium {
+	color: blue;
+}

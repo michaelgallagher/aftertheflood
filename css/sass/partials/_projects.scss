@@ -363,6 +363,91 @@ body.projects.single {
 			}
 		}
 	}
+
+
+
+
+
+
+
+
+
+
+	.text-illustration {
+		clear: both;
+		float: left;
+		width: 100%;
+		@include clearfix;
+		margin: $jumbo-v-margin-small 0-$tiny-screen-margin 0;
+		@include breakpoint(small) {
+			margin: $jumbo-v-margin-small 0-$small-screen-margin 0;
+		}
+		@include breakpoint(medium) {
+			margin: $jumbo-v-margin-medium 0-$medium-screen-margin 0;
+		}
+		@include breakpoint(large) {
+			margin: $jumbo-v-margin-large 0-$large-screen-margin 0;
+		}
+		@include breakpoint(huge) {
+			margin: $jumbo-v-margin-large 0-$huge-screen-margin 0;
+		}
+		@include screen-margins;
+		p {
+			@include p-large-text;
+			@include gutters;
+			@include breakpoint(medium) {
+				width: percentage(7/10);
+				float: left;
+			}
+			@include breakpoint(large) {
+				width: percentage(6/10);
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	.img {
 		clear: both;
 		float: left;
@@ -441,10 +526,6 @@ body.projects.single {
 				width: percentage(4/9);
 			}
 		}
-
-
-
-
 		&.three-columns {
 			@include breakpoint(medium) {
 				@include gutters;
@@ -460,12 +541,6 @@ body.projects.single {
 			// background-color: red;
 			display: block;
 		}
-
-
-
-
-
-
 		&.left, &.right, &.left-bleed, &.right-bleed {
 			border: 10px solid red;
 		}
