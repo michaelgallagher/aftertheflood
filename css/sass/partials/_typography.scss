@@ -369,6 +369,16 @@ p.promo {
 	border: 10px solid $accent-color;
 	padding: 12px 16px 15px 16px;
 	max-width: 608px;
+	a {
+		color: #000;
+		text-decoration: none;
+		border-bottom: 1px solid $accent-color;
+		&:hover, &:active {
+			color: $accent-color;
+			text-decoration: none;
+			border-bottom: 1px solid $accent-color;
+		}
+	}
 	@include breakpoint(medium) {
 		@include h2-small;
 		line-height: (2.9em/2.1);
