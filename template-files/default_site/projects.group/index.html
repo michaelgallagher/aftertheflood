@@ -218,7 +218,7 @@
 										$left_small_row_open = true;
 									}
 								?>
-									<img src="{exp:ce_img:single src="{image}" width="800" quality="100" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}">
+									<img src="{image:file}{if extension == 'gif'}{url}{if:else}{exp:ce_img:single src="{url}" width="800" quality="80" url_only="yes" save_type="jpg" bg_color="#fff"}{/if}{/image:file}" alt="{alt-text}">
 									{if caption}<div class="caption">{caption}</div>{/if}
 								</div>
 								<?php
@@ -236,7 +236,7 @@
 								      echo '<div class="three-column-wrapper"><div class="img three-columns">';
 								    }
 								  ?>
-								    <img src="{exp:ce_img:single src="{image}" width="800" quality="100" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}">
+								    <img src="{image:file}{if extension == 'gif'}{url}{if:else}{exp:ce_img:single src="{url}" width="800" quality="80" url_only="yes" save_type="jpg" bg_color="#fff"}{/if}{/image:file}" alt="{alt-text}">
 								    {if caption}<div class="caption">{caption}</div>{/if}
 								  </div>
 								  <?php
@@ -250,7 +250,7 @@
 								<div class="img {image-type}{if row_count==total_rows} last-in-content{/if}">
 									<div class="img-wrap">
 										<div>
-											<img src="{exp:ce_img:single src="{image}" width="1500" quality="100" url_only="yes" save_type="jpg" bg_color="#fff"}" alt="{alt-text}">
+											<img src="{image:file}{if extension == 'gif'}{url}{if:else}{exp:ce_img:single src="{url}" width="800" quality="80" url_only="yes" save_type="jpg" bg_color="#fff"}{/if}{/image:file}" alt="{alt-text}">
 										</div>
 									</div>
 									{if caption}<div class="caption">{caption}</div>{/if}
