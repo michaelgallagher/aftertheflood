@@ -764,19 +764,6 @@ body.projects.single {
 		// @include screen-margins;
 		// padding-bottom: 20px;
 		margin-top: 18px;
-		.button {
-			@include h2;
-			background: $accent-color;
-			border-radius: 2px;
-			border: none;
-			box-shadow: none;
-			padding: 6px 14px 10px 14px;
-			clear: both;
-			&:hover, &:active {
-				background-color: #000;
-				color: $accent-color;
-			}
-		}
 		@include breakpoint(medium) {
 			// padding-top: 50px;
 			padding-bottom: 15px;
@@ -784,6 +771,19 @@ body.projects.single {
 		@include breakpoint(large) {
 			// padding-top: 64px;
 			padding-bottom: 20px ;
+		}
+	}
+	.button {
+		@include h2;
+		background: $accent-color;
+		border-radius: 2px;
+		border: none;
+		box-shadow: none;
+		padding: 6px 14px 10px 14px;
+		clear: both;
+		&:hover, &:active {
+			background-color: #000;
+			color: $accent-color;
 		}
 	}
 }
