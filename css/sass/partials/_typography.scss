@@ -437,6 +437,21 @@ p.promo {
 }
 
 // the spark styles
+
+
+.spark-standfirst,
+.spark-bar-medium,
+.spark-bar-narrow,
+.spark-bar-thin,
+.spark-dot-medium,
+.spark-dot-small,
+.spark-line-medium {
+  font-variant-ligatures: contextual;
+  -moz-font-feature-settings: "calt";
+  -webkit-font-feature-settings: "calt";
+  font-feature-settings: "calt";
+}
+
 .spark-standfirst,
 .spark-bar-medium  {
 	font-family: "spark-bar-medium";
